@@ -1,143 +1,148 @@
 body {
-	margin: 0;
-	padding: 0;
-	font-size: 14px;
-	font-family: Arial;
-	color: #999999;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial;
+  color: #999999;
+}
+@media screen and (max-width: 1024px) {
+  body {
+    width: 1024px;
+  }
 }
 a {
-	text-decoration: none;
-	color: #999999;
+  text-decoration: none;
+  color: #999999;
 }
 a:hover {
-	text-decoration: none;
-	color: #c40000;
+  text-decoration: none;
+  color: #c40000;
 }
 ol,
 ul {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 header {
-	height: 28px;
-	background-color: #f2f2f2;
-	padding: 5px 0;
-	border-bottom: 1px solid #e7e7e7;
+  height: 28px;
+  background-color: #f2f2f2;
+  padding: 5px 0;
+  border-bottom: 1px solid #e7e7e7;
 }
 .top {
-	max-width: 1024px;
-	margin: 0 auto;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 .top a {
-	font-size: 12px;
-	margin: 0 10px;
+  font-size: 12px;
+  margin: 0 10px;
 }
 .shopcar {
-	float: right;
+  float: right;
 }
 .search {
-	max-width: 1024px;
-	margin: 0 auto;
-	position: relative;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
 }
 img.logo {
-	position: absolute;
-	top: -50px;
-	left: -40px;
-	vertical-align: middle;
+  position: absolute;
+  top: -50px;
+  left: -40px;
+  vertical-align: middle;
 }
 .searchDiv {
-	width: 400px;
-	height: 40px;
-	margin: 50px auto;
-	padding: 1px;
-	background-color: #c40000;
+  width: 400px;
+  height: 40px;
+  margin: 50px auto;
+  padding: 1px;
+  background-color: #c40000;
 }
 .searchDiv input {
-	width: 275px;
-	height: 36px;
-	outline: none;
-	border: 1px solid transparent;
-	margin: 1px;
+  width: 275px;
+  height: 36px;
+  outline: none;
+  border: 1px solid transparent;
+  margin: 1px;
 }
 .searchDiv button {
-	width: 110px;
-	border: 1px solid transparent;
-	outline: none;
-	background-color: #c40000;
-	font-size: 20px;
-	font-weight: bold;
-	color: #fff;
+  width: 110px;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: #c40000;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
 }
 .searchBelow {
-	margin: 3px 0 0 -20px;
+  margin: 3px 0 0 -20px;
 }
 .searchBelow a {
-	padding: 0 20px;
-	border-right: 1px solid #ccc;
+  padding: 0 20px;
+  border-right: 1px solid #ccc;
 }
 .searchBelow a:last-child {
-	border: none;
+  border: none;
 }
 footer {
-	margin-top: 10px;
-	border-top: 1px solid #e7e7e7;
+  margin-top: 10px;
+  border-top: 1px solid #e7e7e7;
 }
 .footer_ensure {
-	margin: 24px 0;
-	text-align: center;
+  margin: 24px 0;
+  text-align: center;
 }
 .footer_desc {
-	border-top: 1px solid #e7e7e7;
-	max-width: 1024px;
-	margin: 0 auto;
-	padding-top: 30px;
+  border-top: 1px solid #e7e7e7;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 30px;
 }
 .desc {
-	width: 20%;
-	float: left;
-	padding-left: 15px;
+  width: 20%;
+  float: left;
+  padding-left: 15px;
 }
 .desc span {
-	font-size: 16px;
-	font-weight: bold;
-	color: #666;
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
 }
 .desc a {
-	font-size: 12px;
-	display: block;
-	padding-top: 3px;
+  font-size: 12px;
+  display: block;
+  padding-top: 3px;
 }
 .copyright {
-	background-color: #000;
-	border-top: 2px solid #c40000;
+  background-color: #000;
+  border-top: 2px solid #c40000;
 }
 .copyrightMid {
-	position: relative;
-	width: 1024px;
-	margin: 0 auto;
+  position: relative;
+  width: 1024px;
+  margin: 0 auto;
 }
 .cateye {
-	position: absolute;
-	top: -33px;
-	left: 5px;
+  position: absolute;
+  top: -33px;
+  left: 5px;
 }
 .white_link {
-	padding: 10px 0;
-	margin-left: 10px;
+  padding: 10px 0;
+  margin-left: 10px;
 }
 .white_link a {
-	font-size: 12px;
-	color: #fff;
-	padding: 0 5px;
+  font-size: 12px;
+  color: #fff;
+  padding: 0 5px;
 }
 .license {
-	font-size: 12px;
-	margin-left: 10px;
-	padding-bottom: 30px;
+  font-size: 12px;
+  margin-left: 10px;
+  padding-bottom: 30px;
 }
 .copyRightYear {
-	font-size: 12px;
-	margin: 10px 0;
-	color: #668888;
+  font-size: 12px;
+  margin: 10px 0;
+  color: #668888;
 }

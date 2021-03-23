@@ -1,8 +1,11 @@
 .nav {
   background-color: #dd2727;
 }
+.navBox {
+  width: 1024px;
+  margin: 0 auto;
+}
 .nav .head {
-  margin-left: 179.5px;
   color: #fff;
   width: 200px;
   height: 36px;
@@ -35,22 +38,21 @@
   display: none;
 }
 .background {
-  position: relative;
   width: 100%;
   height: 510px;
   background-color: #e8e8e8;
 }
 .menucon {
+  position: relative;
   width: 1024px;
   height: 510px;
   margin: 0 auto;
 }
 .menu {
   position: absolute;
-  left: 159.5px;
+  left: 0;
   top: 0;
   width: 200px;
-  margin-left: 20px;
   color: #000;
   background-color: #e2e2e3;
   z-index: 1;
@@ -69,13 +71,13 @@
 }
 .menuDesc .eachCategoryProd {
   position: absolute;
-  left: 159.5px;
+  left: 0;
   width: 825px;
   height: 510px;
   background-color: #fff;
   z-index: 1;
   display: none;
-  margin-left: 220px;
+  margin-left: 200px;
 }
 .menuDesc .shows {
   margin: 20px 80px 0;
