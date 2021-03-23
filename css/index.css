@@ -1,198 +1,199 @@
 .nav {
-	background-color: #dd2727;
+  background-color: #dd2727;
 }
 .nav .head {
-	margin-left: 234.5px;
-	color: #fff;
-	width: 200px;
-	height: 36px;
-	line-height: 36px;
-	font-size: 16px;
-	font-weight: bold;
-	display: inline-block;
-	background-color: #c60a0a;
+  margin-left: 179.5px;
+  color: #fff;
+  width: 200px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  background-color: #c60a0a;
 }
 .nav .main {
-	position: relative;
-	display: inline-block;
-	height: 36px;
+  position: relative;
+  display: inline-block;
+  height: 36px;
 }
 .nav img {
-	height: 36px;
+  height: 36px;
 }
 .nav .main span {
-	margin: 0 20px;
+  margin: 0 20px;
 }
 .nav .main span a {
-	color: #fff;
-	font-size: 16px;
+  color: #fff;
+  font-size: 16px;
 }
 .nav .main .catear {
-	position: absolute;
-	top: -10px;
-	left: 50px;
-	height: 15px;
-	display: none;
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  height: 15px;
+  display: none;
 }
 .background {
-	position: relative;
-	width: 100%;
-	height: 510px;
-	background-color: #e8e8e8;
+  position: relative;
+  width: 100%;
+  height: 510px;
+  background-color: #e8e8e8;
 }
 .menucon {
-	width: 1024px;
-	height: 510px;
-	margin: 0 auto;
+  width: 1024px;
+  height: 510px;
+  margin: 0 auto;
 }
 .menu {
-	position: absolute;
-	left: 214.5px;
-	top: 0;
-	width: 200px;
-	margin-left: 20px;
-	color: #000;
-	background-color: #e2e2e3;
-	z-index: 1;
+  position: absolute;
+  left: 159.5px;
+  top: 0;
+  width: 200px;
+  margin-left: 20px;
+  color: #000;
+  background-color: #e2e2e3;
+  z-index: 1;
 }
 .menu .eachCategory {
-	padding-left: 10px;
-	line-height: 30px;
-	background-color: rgb(226, 226, 227);
-	font-size: 14px;
+  padding-left: 10px;
+  line-height: 30px;
+  background-color: rgb(226, 226, 227);
+  font-size: 14px;
 }
 .menu .eachCategory span {
-	margin-right: 10px;
+  margin-right: 10px;
 }
 .menu .eachCategory a {
-	color: #000;
+  color: #000;
 }
 .menuDesc .eachCategoryProd {
-	position: absolute;
-	left: 640px;
-	width: 824px;
-	height: 510px;
-	background-color: #fff;
-	z-index: 1;
-	display: none;
+  position: absolute;
+  left: 159.5px;
+  width: 825px;
+  height: 510px;
+  background-color: #fff;
+  z-index: 1;
+  display: none;
+  margin-left: 220px;
 }
 .menuDesc .shows {
-	margin: 20px 80px 0;
-	padding-bottom: 20px;
-	border-bottom: 1px dotted #ccc;
+  margin: 20px 80px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #ccc;
 }
 .menuDesc .shows a {
-	font-size: 14px;
-	margin: 8px;
+  font-size: 14px;
+  margin: 8px;
 }
 .menuDesc .shows a.active {
-	color: lightskyblue !important;
+  color: lightskyblue !important;
 }
 .menuDesc .shows a:hover {
-	color: #c60a0a;
+  color: #c60a0a;
 }
 .eachCategory.active a {
-	color: lightskyblue;
+  color: lightskyblue;
 }
 .eachCategory.active {
-	background-color: #fff;
+  background-color: #fff;
 }
 .focus {
-	position: relative;
-	width: 1024px;
-	height: 510px;
-	background-color: pink;
-	position: relative;
-	margin: -510px auto 0;
-	overflow: hidden;
+  position: relative;
+  width: 1024px;
+  height: 510px;
+  background-color: pink;
+  position: relative;
+  margin: -510px auto 0;
+  overflow: hidden;
 }
 .focus ol {
-	position: absolute;
-	left: 50%;
-	bottom: 10px;
-	z-index: 1;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  z-index: 1;
 }
 .focus ol li {
-	float: left;
-	width: 15px;
-	height: 15px;
-	margin: 3px;
-	border-radius: 15px;
-	border: 1px solid #fff;
-	cursor: pointer;
+  float: left;
+  width: 15px;
+  height: 15px;
+  margin: 3px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 ol li.active {
-	background-color: #fff;
+  background-color: #fff;
 }
 .focus ul {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 9999px;
-	height: 510px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 9999px;
+  height: 510px;
 }
 .focus ul li {
-	float: left;
+  float: left;
 }
 .focus ul li img {
-	width: 1024px;
-	height: 510px;
+  width: 1024px;
+  height: 510px;
 }
 .product {
-	max-width: 1024px;
-	margin: 10px auto;
-	padding: 50px 10px;
-	background-color: #f5f5f5;
+  max-width: 1024px;
+  margin: 10px auto;
+  padding: 50px 10px;
+  background-color: #f5f5f5;
 }
 .eachCategoryProduct {
-	margin-bottom: 40px;
-	overflow: hidden;
+  margin-bottom: 40px;
+  overflow: hidden;
 }
 
 .mark {
-	display: inline-block;
-	width: 5px;
-	height: 20px;
-	background-color: #19c8a9;
-	vertical-align: top;
+  display: inline-block;
+  width: 5px;
+  height: 20px;
+  background-color: #19c8a9;
+  vertical-align: top;
 }
 .CategorTitle {
-	font-size: 16px;
-	color: #666;
-	font-weight: bold;
-	margin-left: 30px;
+  font-size: 16px;
+  color: #666;
+  font-weight: bold;
+  margin-left: 30px;
 }
 .proItem {
-	float: left;
-	width: 189px;
-	height: 285px;
-	border: 1px solid #fff;
-	background-color: #fff;
-	margin: 8px 4px;
-	cursor: pointer;
+  float: left;
+  width: 189px;
+  height: 285px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin: 8px 4px;
+  cursor: pointer;
 }
 .proItem a img {
-	width: 187px;
-	height: 190px;
+  width: 187px;
+  height: 190px;
 }
 .proDesc {
-	display: block;
-	font-size: 12px;
-	color: #666;
-	padding: 16px;
+  display: block;
+  font-size: 12px;
+  color: #666;
+  padding: 16px;
 }
 .proPrice {
-	display: block;
-	font-size: 16px;
-	color: #ff003a;
-	margin-top: -16px;
-	padding-left: 16px;
+  display: block;
+  font-size: 16px;
+  color: #ff003a;
+  margin-top: -16px;
+  padding-left: 16px;
 }
 .proItem:hover {
-	border: 1px solid #c40000;
+  border: 1px solid #c40000;
 }
 .end {
-	display: block;
-	width: 82px;
-	margin: 0 auto;
+  display: block;
+  width: 82px;
+  margin: 0 auto;
 }
