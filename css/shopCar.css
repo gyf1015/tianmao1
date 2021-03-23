@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.carDiv {
+	max-width: 1024px;
+	margin: 10px auto;
+	color: #000;
+	overflow: hidden;
+}
+.carTitle {
+	float: right;
+}
+.carTitle .carPrice {
+	font-size: 14px;
+	font-weight: bold;
+	color: #c40000;
+	margin: 0 5px;
+}
+.carTitle .carButton {
+	width: 53px;
+	height: 25px;
+	background-color: #aaaaaa;
+	border: 1px solid #aaaaaa;
+	border-radius: 2px;
+	color: #fff;
+}
+.carFoot {
+	background-color: #e5e5e5;
+	line-height: 50px;
+	margin: 20px 0;
+	padding-left: 20px;
+	color: #000;
+}
+.right {
+	float: right;
+}
+.SumNumber {
+	color: #c40000;
+	font-size: 16px;
+	font-weight: bold;
+}
+.SumPrice {
+	color: #c40000;
+	font-size: 20px;
+	font-weight: bold;
+}
+.carFoot .carButton {
+	width: 120px;
+	height: 50px;
+	background-color: #aaaaaa;
+	border: 0px solid #aaaaaa;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+.buttonBg {
+	background-color: #c40000 !important;
+}
+.carProduct table {
+	width: 1023px;
+	font-size: 12px;
+}
+.carProduct table th {
+	font-weight: normal;
+	color: #3c3c3c;
+	padding: 20px;
+	text-align: left;
+}
+.carProduct table th:first-child input {
+	margin-right: 3px;
+}
+.carProduct tbody td {
+	padding: 20px;
+}
+.carProduct tbody tr {
+	border: 1px solid #ccc;
+}
+.bg {
+	background-color: rgb(255, 248, 225);
+}
+.carProduct tbody td:first-child img {
+	width: 80px;
+	height: 80px;
+	padding: 1px;
+	border: 1px solid #eeeeee;
+}
+
+.carProdLink {
+	position: relative;
+	height: 80px;
+}
+.carProdLink a {
+	color: #3c3c3c;
+}
+.carProdLink a:hover {
+	color: #c40000;
+	text-decoration: underline;
+}
+.link {
+	position: absolute;
+	bottom: 0;
+	height: 20px;
+}
+.oPrice {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #9c9c9c;
+	text-decoration: line-through;
+}
+.pPrice {
+	font-size: 14px;
+	font-weight: bold;
+	color: #c40000;
+}
+.changeNum {
+	width: 80px;
+	border: 1px solid #e5e5e5;
+}
+.changeNum a {
+	display: inline-block;
+	width: 14px;
+	text-align: center;
+	color: #000;
+	text-decoration: none;
+}
+.orderNum {
+	display: inline-block;
+	width: 42px;
+	border: 1px solid #aaaaaa;
+}
+.smallSum {
+	font-size: 14px;
+	font-weight: bold;
+	color: #c40000;
+}

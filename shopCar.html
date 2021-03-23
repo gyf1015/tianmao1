@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/conmon.css">
+    <link rel="stylesheet" href="./css/shopCar.css">
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- 页面头部 -->
+    <header>
+        <div class="top">
+            <a href="javascript:;">
+                <span style="color:#C40000;margin:0px" class="glyphicon glyphicon-home"></span>
+                天猫首页</a>
+            <span>喵， 欢迎来天猫</span>
+            <a href="javascript:;">请登录</a>
+            <a href="javascript:;">免费注册</a>
+            <span class="shopcar">
+                <a href="javascript:;">我的订单</a>
+                <a href="./shopCar.html">
+                    <span style="color:#C40000;margin:0px" class=" glyphicon glyphicon-shopping-cart redColor"></span>
+                    购物车</a>
+            </span>
+        </div>
+    </header>
+    <!-- 头部结束 -->
+    <!-- 搜索框 -->
+    <div class="search">
+        <a href="./index.html">
+            <img src="images/site/logo.gif" alt="天猫" class="logo">
+        </a>
+        <form action="#">
+            <div class="searchDiv">
+                <input type="text" placeholder="时尚男鞋 太阳镜">
+                <button type="submit">搜索</button>
+                <div class="searchBelow">
+                    <a href="javascript:;">平衡车</a>
+                    <a href="javascript:;">扫地机器人</a>
+                    <a href="javascript:;">原汁机</a>
+                    <a href="javascript:;">冰箱</a>
+                </div>
+            </div>
+
+        </form>
+    </div>
+    <!-- 搜索框结束 -->
+    <!-- 购物车部分 -->
+    <div class="carDiv">
+        <div class="carTitle">
+            <span>已选商品 (不含运费)</span>
+            <span class="carPrice">￥0.00</span>
+            <button disabled class="carButton">结算</button>
+        </div>
+        <div class="carProduct">
+            <table>
+                <thead>
+                    <tr>
+                        <th width="150px">
+                            <input type="checkbox" class="selectAll">全选
+                        </th>
+                        <th>商品信息</th>
+                        <th>单价</th>
+                        <th>数量</th>
+                        <th width="120px">金额</th>
+                        <th width="80px">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="checkbox" class="select">
+                            <img src="./images/site/8565.jpg" alt="">
+                        </td>
+                        <td>
+                            <div class="carProdLink">
+                                <a href="./product.html">名媛小香风时尚套装女春秋2016秋装新款女装欧美气质马甲两件套潮</a>
+                                <div class="link">
+                                    <img src="./images/site/creditcard.png" alt="">
+                                    <img src="./images/site/7day.png" alt="">
+                                    <img src="./images/site/promise.png" alt="">
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="oPrice">￥280.0</span>
+                            <span class="pPrice">￥210.0</span>
+                        </td>
+                        <td>
+                            <div class="changeNum">
+                                <a href="javascript:;" class="numDec">-</a>
+                                <input type="text" class="orderNum" value="1">
+                                <a href="javascript:;" class="numInc">+</a>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="smallSum">￥210.00</span>
+                        </td>
+                        <td>
+                            <a href="javascript:;" class="delete">删除</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" class="select">
+                            <img src="./images/site/8345.jpg" alt="">
+                        </td>
+                        <td>
+                            <div class="carProdLink">
+                                <a href="./product.html">品牌女装新款欧洲站2016夏装秋装棉麻时尚两件套套装上衣短裤女潮</a>
+                                <div class="link">
+                                    <img src="./images/site/creditcard.png" alt="">
+                                    <img src="./images/site/7day.png" alt="">
+                                    <img src="./images/site/promise.png" alt="">
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="oPrice">￥168.0</span>
+                            <span class="pPrice">￥117.6</span>
+                        </td>
+                        <td>
+                            <div class="changeNum">
+                                <a href="javascript:;" class="numDec">-</a>
+                                <input type="text" class="orderNum" value="1">
+                                <a href="javascript:;" class="numInc">+</a>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="smallSum">￥117.60</span>
+                        </td>
+                        <td>
+                            <a href="javascript:;" class="delete">删除</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" class="select">
+                            <img src="./images/site/8510.jpg" alt="">
+                        </td>
+                        <td>
+                            <div class="carProdLink">
+                                <a href="./product.html">阔腿裤三件套装女夏装2016新款大码雪纺时尚休闲气质棉麻九分裤潮</a>
+                                <div class="link">
+                                    <img src="./images/site/creditcard.png" alt="">
+                                    <img src="./images/site/7day.png" alt="">
+                                    <img src="./images/site/promise.png" alt="">
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="oPrice">￥235.0</span>
+                            <span class="pPrice">￥152.75</span>
+                        </td>
+                        <td>
+                            <div class="changeNum">
+                                <a href="javascript:;" class="numDec">-</a>
+                                <input type="text" class="orderNum" value="1">
+                                <a href="javascript:;" class="numInc">+</a>
+                            </div>
+                        </td>
+                        <td>
+                            <span class="smallSum">￥152.75</span>
+                        </td>
+                        <td>
+                            <a href="javascript:;" class="delete">删除</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="carFoot">
+            <input type="checkbox" class="selectAll">
+            <span>全选</span>
+            <div class="right">
+                <span>
+                    已选商品
+                    <span class="SumNumber">0</span>
+                </span>
+                <span>合计 (不含运费): </span>
+                <span class="SumPrice">￥0.00</span>
+                <button class="carButton" disabled>结算</button>
+            </div>
+        </div>
+        <script>
+        
+            // 全选框
+            $(".selectAll").change(function () {
+                var checked = $(this).prop("checked");
+                $(".selectAll, .select").prop("checked", checked);
+                if ($(this).prop("checked")) {
+                    $(".select").closest("tr").addClass("bg");
+                    $(".carButton").addClass("buttonBg").removeAttr("disabled");
+                } else {
+                    $(".select").closest("tr").removeClass("bg");
+                    $(".carButton").removeClass("buttonBg");
+                    $(".carButton").removeClass("buttonBg").attr("disabled", "disabled")
+                }
+            })
+            // 单选框
+            $(".select").change(function () {
+                if ($(this).prop("checked")) {
+                    $(this).closest("tr").addClass("bg");
+                    $(".carButton").addClass("buttonBg").removeAttr("disabled");
+                }
+                else {
+                    $(this).closest("tr").removeClass("bg");
+                    $(".carButton").removeClass("buttonBg");
+                    $(".carButton").removeClass("buttonBg").attr("disabled", "disabled")
+                }
+                if ($(".select:checked").length === $(".select").length) {
+                    $(".selectAll").prop("checked", true);
+                } else {
+                    $(".selectAll").prop("checked", false);
+                }
+            })
+
+            // 加减商品
+            $(".numInc").click(function () {
+                var num = parseInt($(this).siblings(".orderNum").val());
+                num++;
+                $(this).siblings(".orderNum").val(num);
+                var price = parseFloat($(this).closest("td").prev("td").children(".pPrice").html().substr(1));
+                var sum = num * price;
+                $(this).closest("td").next("td").children().html("￥" + (num * price).toFixed(2));
+                getSum();
+            })
+            $(".numDec").click(function () {
+                var num = parseInt($(this).siblings(".orderNum").val());
+                if (num == 1) {
+                    return false;
+                }
+                num--;
+                $(this).siblings(".orderNum").val(num);
+                var price = parseFloat($(this).closest("td").prev("td").children(".pPrice").html().substr(1));
+                var sum = num * price;
+                $(this).closest("td").next("td").children().html("￥" + (num * price).toFixed(2));
+                getSum();
+            })
+            // 手动输入
+            $(".orderNum").change(function () {
+                var num = parseInt($(this).val());
+                if (isNaN(num) || num < 1) {
+                    $(this).val("1");
+                    return false;
+                }
+                var price = parseFloat($(this).closest("td").prev("td").children(".pPrice").html().substr(1));
+                var sum = num * price;
+                $(this).closest("td").next("td").children().html("￥" + (num * price).toFixed(2));
+                getSum();
+            })
+            // 计算总和
+            getSum();
+            // 页面开始就计算一次
+            function getSum() {
+                var sum = 0;
+                var count = 0;
+                $(".smallSum").each(function (index, element) {
+                    sum += parseFloat($(element).html().substr(1));
+                });
+                $(".SumPrice, .carPrice").html("￥" + sum);
+                $(".orderNum").each(function (index, element) {
+                    count += parseInt($(element).val());
+                });
+                $(".SumNumber").html(count);
+            }
+        </script>
+    </div>
+    <!-- 购物车部分结束 -->
+    <!-- 页面尾部 -->
+    <footer>
+        <div class="footer_ensure">
+            <a href="javascript:;">
+                <img src="images/site/ensure.png" alt="">
+            </a>
+        </div>
+        <div class="footer_desc">
+            <div class="desc">
+                <span>购物指南</span>
+                <a href="javascript:;">免费注册</a>
+                <a href="javascript:;">开通支付宝</a>
+                <a href="javascript:;">支付宝充值</a>
+            </div>
+            <div class="desc">
+                <span>天猫保障</span>
+                <a href="javascript:;">发票保障</a>
+                <a href="javascript:;">售后规则</a>
+                <a href="javascript:;">缺货赔付</a>
+            </div>
+            <div class="desc">
+                <span>支付方式</span>
+                <a href="javascript:;">快捷支付</a>
+                <a href="javascript:;">信用卡</a>
+                <a href="javascript:;">蚂蚁花呗</a>
+                <a href="javascript:;">货到付款</a>
+            </div>
+            <div class="desc">
+                <span>商家服务</span>
+                <a href="javascript:;">商家入驻</a>
+                <a href="javascript:;">商家中心</a>
+                <a href="javascript:;">天猫智库</a>
+                <a href="javascript:;">天猫规则</a>
+                <a href="javascript:;">物流服务</a>
+                <a href="javascript:;">运营服务</a>
+            </div>
+            <div class="desc">
+                <span>手机天猫</span>
+                <a href="javascript:;">
+                    <img src="images/site/ma.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="copyright">
+            <div class="copyrightMid">
+                <img src="images/site/cateye.png" alt="" class="cateye">
+                <div class="white_link">
+                    <a href="javascript:;" style="padding-left: 0;">关于天猫</a>
+                    <a href="javascript:;">帮助中心</a>
+                    <a href="javascript:;">开放平台</a>
+                    <a href="javascript:;">联系我们</a>
+                    <a href="javascript:;">网站合作</a>
+                    <a href="javascript:;">法律声明</a>
+                    <a href="javascript:;">知识产权</a>
+                    <a href="javascript:;">廉政举报</a>
+                </div>
+                <div class="white_link">
+                    <a href="javascript:;" style="padding-left: 0;">阿里巴巴集团 | </a>
+                    <a href="javascript:;">淘宝网 | </a>
+                    <a href="javascript:;">天猫 | </a>
+                    <a href="javascript:;">聚划算 | </a>
+                    <a href="javascript:;">聚划算 | </a>
+                    <a href="javascript:;">聚划算 | </a>
+                    <a href="javascript:;">聚划算 | </a>
+                    <a href="javascript:;">聚划算 | </a>
+                    <a href="javascript:;">支付宝 | </a>
+                    <a href="javascript:;">支付宝 | </a>
+                    <a href="javascript:;">支付宝 | </a>
+                    <a href="javascript:;">支付宝 | </a>
+                    <a href="javascript:;">支付宝 | </a>
+                    <a href="javascript:;">支付宝 | </a>
+                </div>
+                <div class="license">
+                    <span>增值电信业务经营许可证： 浙B2-20110446</span>
+                    <span>网络文化经营许可证：浙网文[2015]0295-065号</span>
+                    <span>互联网医疗保健信息服务 审核同意书 浙卫网审【2014】6号 </span>
+                    <span>互联网药品信息服务资质证书编号：浙-（经营性）-2012-0005</span>
+                    <div class="copyRightYear">© 2003-2016 TMALL.COM 版权所有</div>
+                    <div>
+                        <img src="images/site/copyRight1.jpg">
+                        <img src="images/site/copyRight2.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- 尾部结束 -->
+</body>
+
+</html>
